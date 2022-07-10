@@ -14,6 +14,10 @@ public class EmployeeWage {
 
     public static void main(String[] args) {
         System.out.println("Well come to Employee Wage computation");
+        employee_Wage();
+    }
+
+    public static void employee_Wage() {
         int day = 0;
         while (total_hours < max_working_hours && day <= working_day_per_month) {
             int checkRandom = (int) Math.floor(Math.random() * 10) % 3;
